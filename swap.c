@@ -3,7 +3,7 @@
 
 void swap_max(int arr[], int l,int a)
 {
-  int lar=arr[a],j;
+  int lar=arr[a],j=a;
   for(int i=a;i<l;i++)
   {
     if(arr[i]>lar)
