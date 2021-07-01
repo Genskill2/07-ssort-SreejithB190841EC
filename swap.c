@@ -1,3 +1,5 @@
+#include<cs50.h>
+
 void swap_max(int arr[], int l,int a)
 {
   int lar=0,j;
